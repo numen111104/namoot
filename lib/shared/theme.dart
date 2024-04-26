@@ -1,21 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-Color whiteColor = const Color(0xFFFFFFFF);
-Color blackColor = const Color(0xFF14193F);
-Color greyColor = const Color(0xFFA4A8AE);
-Color lightBackgroundColor = const Color(0xFFF6F8FB);
-Color darkBackgroundColor = const Color(0xFF020518);
-Color blueColor = const Color.fromARGB(255, 144, 204, 234);
-Color greenColor = const Color(0xff22B07D);
-Color redColor = const Color(0xffFF2566);
+const whiteColor = Color.fromARGB(255, 255, 255, 255);
+const blackColor = Color.fromARGB(255, 0, 0, 0);
+const greyColor = Color.fromARGB(223, 237, 236, 236);
+const lightBackgroundColor = Color(0xFFF6F8FB);
+const darkBackgroundColor = Color(0xFF020518);
+const blueColor = Color.fromARGB(255, 105, 205, 255);
+const greenColor = Color(0xff22B07D);
+const greenSelectedColor = Color.fromARGB(255, 36, 183, 129);
+const redColor = Color(0xffFF2566);
+
 
 TextStyle blackTextStyle = GoogleFonts.notoKufiArabic(
   color: blackColor,
 );
 
 TextStyle blueTextStyle = GoogleFonts.notoKufiArabic(
-  color: blueColor, 
+  color: blueColor,
 );
 
 TextStyle whiteTextStyle = GoogleFonts.notoKufiArabic(
@@ -37,4 +39,3 @@ FontWeight semiBold = FontWeight.w600;
 FontWeight bold = FontWeight.w700;
 FontWeight extraBold = FontWeight.w800;
 FontWeight black = FontWeight.w900;
-
