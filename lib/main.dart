@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:namoot/screens/home_screen.dart';
 
-void main(){
+void main() {
   runApp(const MyApp());
 }
 
@@ -12,9 +12,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        appBarTheme: AppBarTheme(backgroundColor: Colors.transparent),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.transparent,
+        ),
+        useMaterial3: true,
       ),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
